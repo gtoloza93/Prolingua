@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kid.prolingua.AnimalnivelCategoriaController">
+   <children>
+      <ImageView fitHeight="351.0" fitWidth="697.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/image03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="315.0" fitWidth="529.0" layoutX="27.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/categoriasLevels%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="495.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/imagecategorias/Imag05Flecha.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backLevelButton" layoutX="39.0" layoutY="14.0" mnemonicParsing="false" onAction="#backLevelButtonOnAction" prefHeight="18.0" prefWidth="43.0" style="-fx-background-color: #ffdb0c;" text="BACK" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="137.0" layoutY="155.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="27.0" style="-fx-background-color: #ffdb0c; -fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20;" />
+      <ImageView fx:id="playL1Image" fitHeight="25.0" fitWidth="25.0" layoutX="138.0" layoutY="154.0" onMouseClicked="#playL1ImageOnMoused" pickOnBounds="true" preserveRatio="true" rotate="-15.0">
+         <image>
+            <Image url="@Image/ImageAnimalCateg/imagplayCateg.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="219.0" layoutY="155.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="27.0" style="-fx-background-color: #ffdb0c; -fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20;" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="220.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0">
+         <image>
+            <Image url="@Image/ImageAnimalCateg/imagplayCateg.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="300.0" layoutY="156.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="27.0" style="-fx-background-color: #ffdb0c; -fx-border-color: #000000; -fx-background-radius: 20; -fx-border-radius: 20;" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="301.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0">
+         <image>
+            <Image url="@Image/ImageAnimalCateg/imagplayCateg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="110.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kid.prolingua.RegisterControlle">
+   <children>
+      <ImageView fx:id="brandingiImageView" fitHeight="352.0" fitWidth="624.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/branding.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logo2ImageView" fitHeight="231.0" fitWidth="511.0" layoutX="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="registerButton" layoutX="228.0" layoutY="304.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #ff5400;" text="Registrarse">
+         <font>
+            <Font name="Comic Sans MS Bold" size="11.0" />
+         </font>
+      </Button>
+      <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="227.0" layoutY="170.0" promptText="Username" style="-fx-background-color: #0496ff;" />
+      <Button fx:id="regresarInicioButton" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#regresarButtonOnAction" prefHeight="15.0" prefWidth="50.0" style="-fx-background-color: #FFD51E;" text="EXIT">
+         <font>
+            <Font name="Comic Sans MS Bold" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="269.0" layoutY="151.0" prefHeight="19.0" prefWidth="67.0" text="Username" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="238.0" layoutY="195.0" prefHeight="19.0" prefWidth="126.0" text="Contraseña" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="238.0" layoutY="237.0" prefHeight="19.0" prefWidth="126.0" text="Repetir Contraseña" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="repetirPasswordField" alignment="CENTER" layoutX="228.0" layoutY="256.0" promptText="Repetir Contraseña" style="-fx-background-color: #0496ff;" />
+      <Label fx:id="confirmPasswordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="248.0" layoutY="281.0" prefHeight="17.0" prefWidth="102.0" textFill="#ff0049" />
+      <PasswordField fx:id="contraseñaPasswordField" alignment="CENTER" layoutX="228.0" layoutY="214.0" promptText="Contraseña" style="-fx-background-color: #0496ff;" />
+      <Button fx:id="irloginButton" layoutX="313.0" layoutY="304.0" mnemonicParsing="false" onAction="#regresarLoginButtonOnAction" prefHeight="26.0" prefWidth="60.0" style="-fx-background-color: #FFD51E;" text="Ir Login">
+         <font>
+            <Font name="Comic Sans MS Bold" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

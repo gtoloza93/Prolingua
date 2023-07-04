@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="371.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/image03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="495.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../Image/imagecategorias/Imag05Flecha.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="39.0" layoutY="14.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="43.0" style="-fx-background-color: #ffdb0c;" text="EXIT" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="321.0" fitWidth="568.0" layoutX="16.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/ImageAnimalCateg/AnimalLevel2.png" />
+         </image>
+      </ImageView>
+      <ProgressBar layoutX="209.0" layoutY="274.0" prefWidth="200.0" progress="0.61">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ProgressBar>
+      <Button layoutX="322.0" layoutY="298.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="76.0" style="-fx-background-color: #ffdb0c;" text="Restart" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="111.0" layoutY="222.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="37.0" style="-fx-border-radius: 5; -fx-background-color: #FFBA08; -fx-background-radius: 5;" text="Lion">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="184.0" layoutY="221.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="49.0" style="-fx-background-color: #ffba08; -fx-border-radius: 5; -fx-background-radius: 5;" text="Parrot">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="221.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="49.0" style="-fx-background-color: #ffba08; -fx-border-radius: 5; -fx-background-radius: 5;" text="Horse">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="365.0" layoutY="221.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="49.0" style="-fx-background-color: #ffba08; -fx-border-radius: 5; -fx-background-radius: 5;" text="Sheep">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="451.0" layoutY="221.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="49.0" style="-fx-background-color: #ffba08; -fx-border-radius: 5; -fx-background-radius: 5;" text="Turttle">
+         <font>
+            <Font name="Comic Sans MS Bold" size="10.0" />
+         </font>
+      </Button>
+      <TextField layoutX="100.0" layoutY="104.0" opacity="0.11" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #ff5400;" />
+      <TextField layoutX="184.0" layoutY="104.0" opacity="0.11" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #ff5400;" />
+      <TextField layoutX="271.0" layoutY="104.0" opacity="0.11" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #ff5400;" />
+      <TextField layoutX="360.0" layoutY="104.0" opacity="0.11" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #ff5400;" />
+      <TextField layoutX="446.0" layoutY="104.0" opacity="0.11" prefHeight="18.0" prefWidth="60.0" style="-fx-background-color: #ff5400;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="524.0" layoutY="11.0" prefHeight="20.0" prefWidth="60.0" text="LEVEL 2" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="122.0" layoutY="161.0" mnemonicParsing="false" opacity="0.0" />
+      <RadioButton layoutX="206.0" layoutY="161.0" mnemonicParsing="false" opacity="0.0" />
+      <RadioButton layoutX="293.0" layoutY="161.0" mnemonicParsing="false" opacity="0.0" />
+      <RadioButton layoutX="382.0" layoutY="161.0" mnemonicParsing="false" opacity="0.0" />
+      <RadioButton layoutX="468.0" layoutY="161.0" mnemonicParsing="false" opacity="0.0" />
+      <Button layoutX="222.0" layoutY="298.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="76.0" style="-fx-background-color: #ffdb0c;" text="Previous" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
